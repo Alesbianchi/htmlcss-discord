@@ -31,7 +31,7 @@ header{
     margin: 0 auto;
 }
 
-ul {    
+.first-list {    
     display: flex;
     justify-content: center; 
     min-width: 600px;
@@ -109,6 +109,19 @@ h1{
     padding-bottom: 5%; 
 }
 
+h2{
+    font-size: xx-large;
+    padding-bottom: 5%;  
+    padding: 5% 0;
+}
+
+h3{
+    font-size: large;
+    padding-bottom: 5%;  
+    padding: 5% 0; 
+    color: rgb(98, 5, 247)
+}
+
 p{
     color: #fff;
     text-align: center;
@@ -151,7 +164,7 @@ p{
 
 .ready{
     position: relative;
-    bottom: 50%;
+    bottom: 30%;
 }
 .videocall{
     align-self: center;
@@ -231,6 +244,8 @@ p{
     color: #000000;
     padding-top: 10%;
     padding-bottom: 2%;
+    font-size: xx-large;
+    font-weight: bold;
 }
 
 #last-p {
@@ -248,6 +263,7 @@ footer{
     
 }
 
+
 .sub-container{
     width: 100%;
     padding: 20px 0;
@@ -258,20 +274,39 @@ footer{
 .sm-pink{   
     width: 100%; 
     /*border: 1px solid black;*/
-    background-color: lightpink;
+    /*background-color: lightpink;*/
 }
 
+#footer-title{
+    color: rgb(98, 5, 247);
+}
 
 .cadetblue{
-    height: 400px;
+    /* height: 400px; */
     width: 40%; 
-    border: 1px solid lightgray;
-    background-color: cadetblue;
+    /* border: 1px solid lightgray;
+    background-color: cadetblue; */
+}
+
+.last-list {    
+    display: flex;
+    justify-content: flex-start; 
+    flex-grow: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.final{
+    padding: 10%; 
+    padding-left: 0;
 }
 
 hr{
    color: lightgray; 
    margin-bottom: 1%;
+   width: 70%;
+   text-align: center;
+   margin: auto;
 }
 
 #last-nav{
