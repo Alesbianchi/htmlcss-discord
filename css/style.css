@@ -25,7 +25,7 @@ header{
 #main-nav {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Usa space-between per distribuire meglio i link */
+    justify-content: space-between; 
     flex-wrap: wrap;
     width: 70%;
     margin: 0 auto;
@@ -33,11 +33,11 @@ header{
 
 ul {    
     display: flex;
-    justify-content: center;  /* Cambia questo per evitare che i link siano troppo distanti */
+    justify-content: center; 
     min-width: 600px;
     flex-grow: 1;
     padding: 0;
-    gap: 5%;  /* Imposta un gap tra i link; usa un valore più basso per ridurre la distanza */
+    gap: 5%;  
     flex-wrap: wrap;
 }
 
@@ -61,26 +61,34 @@ ul li {
 }
 button{
     border: none;
-    padding: 0;
+    
     background: transparent;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
+
+
 
 .accedi{
     background-color: #fff;
     text-decoration: none;
     display: flex;
-    padding: 10px 10px;
+    padding: 20px 20px;
     border-radius: 999999999px;
     text-align: center;
     font-weight: bold;
     line-height: 1.5;
     width: auto;
     flex-wrap: wrap; 
+    font-size: large;
 }
 
+.browser{
+    background-color: #191515;
+    color: #fff;
+    font-size: large;
+}
 
 
 /*regole intestazione main*/
@@ -117,7 +125,7 @@ p{
     background-image: url(../img/jumbo.png);
     background-size: cover;
     width: 100%;
-    min-height: 70vh;
+    min-height: 50vh;
     background-repeat: no-repeat;
 }
 
@@ -134,11 +142,30 @@ p{
     flex-wrap: wrap;
 }
 
+.double{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+
+.ready{
+    position: relative;
+    bottom: 50%;
+}
+.videocall{
+    align-self: center;
+}
+
 .pink{
     /* height: 200px; */
     width: 40%;
     border: 1px ; 
     text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
   
 }
 
@@ -188,12 +215,31 @@ p{
 }
 
 .green{
-    height: 500px;
+    /* height: 500px; */
     width: 100%;
-    border: 1px solid black;
-    background-color: green;
+    /* border: 1px solid black; */
+    background-color:  rgb(245, 243, 243);
+    padding: 20px; 
+    box-sizing: border-box; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
 }
 
+.last-title {
+    text-align: center;
+    color: #000000;
+    padding-top: 10%;
+    padding-bottom: 2%;
+}
+
+#last-p {
+    text-align: center;
+    color: #000000;
+    padding-top: 0;
+    line-height: 2;
+}
 
 /*regole footer*/
 footer{
