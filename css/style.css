@@ -73,11 +73,11 @@ button{
     background-color: #fff;
     text-decoration: none;
     display: flex;
-    padding: 20px 20px;
+    padding: 10px 20px;
     border-radius: 999999999px;
     text-align: center;
     font-weight: bold;
-    line-height: 1.5;
+    line-height: 1;
     width: auto;
     flex-wrap: wrap; 
     font-size: large;
@@ -285,6 +285,12 @@ footer{
 #footer-title{
     color: rgb(98, 5, 247);
 }
+.fa-brands{
+    color: #fff;
+    padding: 5%; 
+}
+
+
 
 .cadetblue{
     /* height: 400px; */
